@@ -1,0 +1,39 @@
+.footer-card {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-para {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 6px;
+}
+.social-media-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.social-icons {
+  color: #ffffff;
+  margin-right: 25px;
+  font-size: 28px;
+}
+.link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media-card {
+    justify-content: center;
+  }
+}

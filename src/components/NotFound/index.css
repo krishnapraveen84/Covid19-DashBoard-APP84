@@ -1,0 +1,33 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #161625;
+  padding: 15px;
+}
+.not-found-heading {
+  color: #e2e8f0;
+  font-size: 26px;
+  margin-top: 10px;
+}
+.not-found-para {
+  font-size: 18px;
+  color: #94a3b8;
+  font-weight: 530;
+  text-align: center;
+  line-height: 35px;
+}
+.home-btn {
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #2563eb;
+  border-radius: 10px;
+  outline: none;
+  border-style: none;
+  font-size: 18px;
+  font-weight: 530;
+}

@@ -1,0 +1,158 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  flex-shrink: 0;
+  padding: 10px;
+  background: #1e1e30;
+  width: 100%;
+}
+
+.logo-name {
+  text-align: center;
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+.india-name {
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3b82f6;
+}
+.menu-btn {
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  font-size: 26px;
+  color: #ffffff;
+}
+.popup-overlay {
+  background: transparent !important;
+}
+.popup-content {
+  border: none !important;
+  height: 100vh;
+  background: #161625 !important;
+  width: 100% !important;
+  margin-top: 56px !important;
+}
+
+.routes-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.links-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  font-size: 19px;
+  font-weight: 520;
+  list-style: none;
+  padding: 0px;
+}
+.route-name {
+  text-decoration: none;
+  color: #94a3b8;
+}
+.close-btn {
+  background: transparent;
+  outline: none;
+  border-style: none;
+  font-size: 26px;
+}
+.close-icon {
+  color: #ffffff;
+}
+.nav-items-lg {
+  display: none;
+}
+.nav-items-sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  list-style: none;
+}
+.menu-btn {
+  background: transparent;
+  border-style: none;
+  outline: none;
+}
+.menu-icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+.popup-routes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  width: 100%;
+}
+.route-name-sm {
+  font-size: 20px;
+  font-weight: 530;
+  margin-right: 25px;
+  text-decoration: none;
+  color: #94a3b8;
+}
+.close-btn {
+  margin-left: auto;
+}
+.btn {
+  background: transparent;
+  outline: none;
+  border-style: none;
+  font-size: 18px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .nav-items-sm {
+    display: none;
+  }
+  .popup-routes {
+    display: none;
+  }
+  .nav-items-lg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    list-style: none;
+  }
+  .nav-bar {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo-name {
+    font-size: 18px;
+  }
+  .india-name {
+    font-size: 18px;
+  }
+  .route-name {
+    font-size: 17px;
+    font-weight: 540;
+  }
+}
+.link {
+  text-decoration: none;
+}

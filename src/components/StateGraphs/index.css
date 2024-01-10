@@ -1,0 +1,63 @@
+.district-bar-graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.bar-graph-sm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.all-graphs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.daily-spreds-heading {
+  font-size: 24px;
+  color: #cbd5e1;
+  width: 100%;
+  text-align: center;
+}
+.line-graphs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  overflow-x: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.line-confirmed {
+  background-color: #331427;
+  color:;
+}
+.line-graph-name {
+  font-size: 20px;
+  font-weight: 530;
+}
+.line-active {
+  background-color: #132240;
+}
+.line-recovered {
+  background-color: #182829;
+}
+.line-tested {
+  background-color: #230f41;
+}
+.tested {
+  color: #9673b9;
+}
+.line-deceased {
+  background-color: #1c1c2b;
+}
